@@ -30,6 +30,10 @@
     yarn build
     yarn start
     ```
+7. 如果您想使用开发模式运行本项目，可以运行：
+    ```bash
+    yarn dev
+    ```
 
 ## 作者
 
