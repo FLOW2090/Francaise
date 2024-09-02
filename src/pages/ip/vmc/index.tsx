@@ -3,7 +3,7 @@ import Words from "../../../components/words";
 
 const VMC = () => {
     return (
-        <div style={{ display: "flex", justifyContent: "center", margin: "32px" }}>
+        <div style={{ display: "flex", justifyContent: "center", margin: "auto", marginTop: "32px" }}>
             <Words tense="ip" type="vmc"/>
         </div>
     );

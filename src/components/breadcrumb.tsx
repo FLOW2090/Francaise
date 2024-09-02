@@ -100,6 +100,9 @@ const BC = () => {
       const url = `/${pathArray.slice(0, index + 1).join("/")}`;
       const onclick = () => {
         router.push(url);
+        if (index === pathArray.length - 1) {
+          window.location.reload();
+        }
       };
       return {
         title: str2display(path),
@@ -115,7 +118,7 @@ const BC = () => {
     setCrumbs(crumbArray);
   }, [router, screenWidth]);
 
-  return <Breadcrumb items={ crumbs }/>;
+  return <Breadcrumb items={crumbs} />;
 };
 
 export default BC;
