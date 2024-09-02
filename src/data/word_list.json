@@ -1,0 +1,30 @@
+{
+    "ip": {
+        "v1": [
+            "acheter",
+            "manager"
+        ],
+        "v2": [
+            "choisir",
+            "finir"
+        ],
+        "v3": [
+            "prendre",
+            "boire"
+        ],
+        "vp": [
+            "se lever"
+        ]
+    },
+    "imp": {
+        "v1": [
+
+        ],
+        "vp": [
+
+        ],
+        "av": [
+
+        ]
+    }
+}
