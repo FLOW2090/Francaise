@@ -28,7 +28,7 @@
 6. 构建并启动服务：
     ```bash
     yarn build
-    node server.js
+    yarn start
     ```
 
 ## 作者
